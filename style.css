@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:burlywood;
+    height: 100%;
+   
+    }
+.box {
+        width: 900px;
+        margin:45px auto;
+        color: black;
+        text-align:center;
+        }
+        h1, h2, h3 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 90;
+            font-size: 2.6em;
+            text-transform: uppercase;
+          }
+          #seconds, #tens{
+            font-size:2em;
+          }  
+          button{
+            @include corners (5px);
+            background:blue;
+            color:white;
+            border: solid 1px white;
+            text-decoration:none;
+            cursor:pointer;
+            font-size:1.2em;
+            padding:18px 10px;
+            width:180px;
+            margin: 10px;
+             outline: none;
+
+             
+            }
+            
